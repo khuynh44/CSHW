@@ -7,11 +7,6 @@
 public class LinkedList<T> implements List<T>, Queue<T> {
     /** The data in front of the list. */
     private Node<T> head;
-
-    /** The data in the back of the list. */
-    private Node<T> tail;
-
-    /**
      * Constructor setting both fields to null.
      */
     public LinkedList() {

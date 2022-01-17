@@ -1,0 +1,26 @@
+CS 2200 Spring 2021
+Homework 2
+
+Name:Kevin Huynh
+GT Username:Khuynh44
+
+Question 1
+----------
+
+/* Fix me */
+lea $ra, 1
+beq $zero, $zero, target
+return: 
+
+
+
+target: 
+/* subroutine would be executed here in the target addres*/
+beq $zero, $zero, return
+
+
+
+	The return address can be saved using the lea that would take the incremented PC plus the offset of 1 so it would go pass the beq instrustion. However,
+since there is now way to jump to an address using a register that contains the address that we would want to jump back to besides the jalr instruction, the 
+only option to jump back to the return address would be a create a label after the first beq instruction and then after the target address executes it's instructions
+there would then be another beq instruction that would jump back to the return address label. 
