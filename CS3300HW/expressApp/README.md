@@ -1,6 +1,10 @@
-# To Run application:
+# Installation
 ```bash
 npm install
+```
+
+# To Run application:
+```bash
 npm run dev
 ```
 
