@@ -1,6 +1,10 @@
-To Run application:
-    run "npm install" in terminal
-    then run "npm run dev" to start up server
+# To Run application:
+```bash
+npm install
+npm run dev
+```
 
-To Test: 
-    run "npm run test"
+# To Test: 
+```bash
+npm run test
+```
